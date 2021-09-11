@@ -9,7 +9,7 @@ Resources:
       Runtime: python3.6
       CodeUri: ./LambdaCode
       Description: 'Lambda Function for CD Demo'
-      Memory: 128
+      MemorySize: 128
       Timeout: 30
       Role: 'arn:aws:iam::197605493344:role/service-role/codebuild-github-to-lambda-service-role'
       Events:
