@@ -3,7 +3,7 @@ phases:
   install:
     commands:
       - aws cloudformation package --template-file samTemplate.yaml --s3-bucket solomem-cicd --output-template-file outputSamTemplate.yaml
-      - echo outputSamTemplate.yaml
+      - echo ls -l
       - echo "finished packaging..."
 artifacts:
  type: zip
